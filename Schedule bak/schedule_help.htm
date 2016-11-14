@@ -1,0 +1,232 @@
+<html>
+<head>
+<style>
+BODY
+{
+	font-size: 12px;
+	font-family: arial;
+}
+
+DIV.HeadingDiv
+{
+	font-weight: bold;
+	text-decoration: underline;
+	padding-bottom: 3px;
+}
+
+DIV.ContentDiv
+{
+	padding-bottom: 9px;
+}
+
+DIV.ActiveHelp
+{
+	background-color: #FFFFCC;
+}
+
+DIV.NotActive
+{
+	background-color: #FFFFFF;
+}
+
+UL
+{
+	margin-top: 2px;
+	margin-bottom: 6px;
+}
+</style>
+<title>Project Management System Help</title>
+</head>
+
+<body>
+<h3 style="color: navy;"><center>Scheduling Help</center></h3>
+<hr width="100%" size="1px" style="color: navy;">
+
+<a name="meeting_date_calendar"></a><br>
+<div id="meeting_date_calendar1" class="NotActive">
+	<div class="HeadingDiv">Selecting Meeting Dates</div>
+	
+	<div class="ContentDiv">
+	By default, all available business days will be selected as a meeting date.  Click the days for which 
+	meetings will not be held.  Days WITH meetings will be filled with a light blue color. 
+	Days WITHOUT meetings will be filled with a white color.  If you have selected a range of months, 
+	you can navigate to a previous or following month by clicking the arrows on top of the main calendar. 
+	When you navigate months, clicking the arrow saves you work into the database.
+	</div>
+</div>
+
+<a name="meeting_time_list"></a><br>
+<div id="meeting_time_list1" class="NotActive">
+	<div class="HeadingDiv">Scheduling a Meeting</div>
+	
+	<div class="ContentDiv">
+	All Meeting Dates that were previously selected will appear on this page.  Orange represents 
+	days available for meetings.  White represents dates not available.  Click the calendar of the month you 
+	would like to add meeting times to.
+	</div>
+</div>
+
+<a name="meeting_time_calendar"></a><br>
+<div id="meeting_time_calendar1" class="NotActive">
+	<div class="HeadingDiv">Scheduling Meeting Times</div>
+	
+	<div class="ContentDiv">
+	Click the day to schedule a meeting time.  Moderators and Speakers will be provided based 
+	on their availability.  Orange colored days are days when meetings can take place.  Blue colored days 
+	represent days where times, moderators, and speakers are scheduled.  The numbers below the date represent 
+	the number of meetings scheduled for that day.  Gray colored days represent days when meetings will NOT take place.
+	</div>
+</div>
+
+<a name="meeting_time_add"></a><br>
+<div id="meeting_time_add1" class="NotActive">
+	<div class="HeadingDiv">Scheduling Meeting Times</div>
+	
+	<div class="ContentDiv"> All meeting times are displayed for day selected. To 
+    add a meeting, click "Add Meeting Time".  Other buttons are explained below.<br>
+	<strong>EDIT</strong>
+	<ul>
+		<li>Use the EDIT link to change the moderator and speaker. You can also CANCEL a meeting 
+		from this link.  Meetings should only be cancelled if they were scheduled and did not occur. 
+		Cancelled meetings appear on reports for billing purposes.</li>
+	</ul>
+	<strong>DELETE</strong>
+	<ul>
+		<li>Use the DELETE link to delete a meeting completely from the system. Delete should be used if you need to 
+		change the time of a meeting or a mistake was made putting the meeting into the system.</li>
+	</ul>
+	<strong>Speaker ADD</strong>
+	<ul>
+		<li>For programs that have more than speaker, use this link to add additional speaker to the meeting.</li>
+	</ul>
+	<strong>ListenIns ADD</strong>
+	<ul>
+		<li>Add listen-ins to the meeting using this link.</li>
+	</ul>
+	</div>
+</div>
+
+<a name="schedule_calendar"></a><br>
+<div id="schedule_calendar1" class="NotActive">
+	<div class="HeadingDiv">Scheduling Moderator/Speaker Availability</div>
+	
+	<div class="ContentDiv">
+	Blue days are marked as available and white days are marked as unavailable.  Click on a day to change its
+	status. The color change will indicate the day's new status. Click save schedule and Exit when done. 
+	If you have selected a range of months, you can navigate to a previous or following month by clicking 
+	the arrows on top of the main calendar. When you navigate months, clicking the arrow saves you work into the database.
+	</div>
+</div>
+
+<a name="schedule_time_calendar"></a><br>
+<div id="schedule_time_calendar1" class="NotActive">
+	<div class="HeadingDiv">Scheduling Moderator/Speaker Time Availability</div>
+	
+	<div class="ContentDiv">
+	White days are marked as available and gray days are marked as unavailable. Days that a speaker or
+	moderator is available only certain hours are indicated by the word "Partial". Click on any available
+	day to see the speaker's or moderator's schedule in detail. 
+	</div>
+</div>
+
+<a name="schedule_time_add"></a><br>
+<div id="schedule_time_add1" class="NotActive">
+	<div class="HeadingDiv">Scheduling Moderator/Speaker Time Availability Display</div>
+	
+	<div class="ContentDiv">
+	This page displays in detail a moderator's or speaker's schedule for a specific day. This table lists
+	half hour increments and indicates if the person is available (A) or unavailable (<font color="#FF0000">NA</font>).
+	To edit these times, click the Edit Time button. The Close and Refresh button will close the time display 
+	pop-up and reload the Speaker Time Availability calendar. The Cancel button will close the time display
+	pop-up with no reload.
+	</div>
+</div>
+
+<a name="schedule_time_edit"></a><br>
+<div id="schedule_time_edit1" class="NotActive">
+	<div class="HeadingDiv">Scheduling Moderator/Speaker Time Availability Edit</div>
+	
+	<div class="ContentDiv">
+	This table lists the same half hour increments displayed on the previous page, except this page
+	has check boxes indicating available or unavailable. A checked box indicates available and an unchecked
+	box indicates unavailable. To change a time's status, click or unclick the box. Click Save and Refresh when
+	done or click Cancel to exit without saving changes. Times that have a meeting scheduled with this moderator or speaker will be uneditable. Before this time can be edited, the speaker or
+	moderator must be removed from the meeting. Remove a speaker from a meeting by using menu item "Meeting
+	Time Scheduler". 
+	</div>
+</div>
+
+<a name="mod_spkr_calendar"></a><br>
+<div id="mod_spkr_calendar1" class="NotActive">
+	<div class="HeadingDiv">Viewing Meeting and Unavailable Schedules</div>
+		
+	<div class="ContentDiv">
+	This will report will allow you to view a Moderator's or Speaker's meeting/unavailability schedule 
+	for a given month.  Only one month may be viewed at a time.  Select the month and year you would like 
+	view.  Then select the report type.  Meeting Schedule will show all meeting codes and start times 
+	for the Moderator/Speaker selected.  Times Unavailable will show all the times a Moderator/Speaker 
+	is Unavailable for the month selected. You must then select if the report is for a moderator or speaker.
+	Based on your selection, a corresponding drop down list will appear. Only Speaker's/Moderator's who have 
+	participated in meetings will appear in the list.  Choose the speaker/moderator and click
+	"Generate Report". Be sure to change page layout to landscape when printing the report. 
+	</div>
+</div>
+
+<a name="production_select"></a><br>
+<div id="production_select1" class="NotActive">
+	<div class="HeadingDiv">Production Schedule Reports</div>
+		
+	
+  <div class="ContentDiv"> You can generate several reports from this screen. 
+    For each report when you must make a selection from the "Query By:" drop down 
+    box. This will determine what report will run. A list of each report is below. When 
+    you make a selection from the "Query By:" drop down, a second drop down list 
+    appears. Generally, you can choose to display "All" records matching your 
+    query, or you can select one project code, speaker, moderator, etc. <br>
+    <br>
+	<strong>Project Meetings Report By Week</strong>
+		<ul>
+			<li>Displays meetings counts by project per week.</li>
+			<li>Select Query By: Project to run this report.</li>
+		</ul>
+	<strong>Moderator Status Report</strong>
+		<ul>
+			<li>Displays meeting counts per moderator by project.  Totals are given for each moderator as well as each project.</li>
+			<li>Select Query By: Moderator to run this report.</li>
+		</ul>
+	<strong>Speaker Status Report</strong>
+		<ul>
+			<li>Displays meeting counts per speaker by project.  Totals are given for each speaker as well as each project.</li>
+			<li>Select Query By: Speaker to run this report.</li>
+		</ul>
+	<strong>Meetings By Recruiter</strong>
+		<ul>
+			<li>Displays meeting for individual recruiter.  PIW must be updated and complete for this report to pull data.</li>
+			<li>Select Query By: Recruiter to run this report.</li>
+		</ul>
+	<strong>Meetings By Teleconferencing Co.</strong>
+		<ul>
+			<li>Displays meeting for individual teleconferencing company.  PIW must be updated and complete for this report to pull data.</li>
+			<li>Select Query By: Teleconferencing Co. to run this report.</li>
+		</ul>
+	<strong>Meetings By Client</strong>
+		<ul>
+			<li>Displays meeting for individual client.  PIW must be updated and complete for this report to pull data.</li>
+			<li>Select Query By: Client to run this report.</li>
+		</ul>
+	</div>
+</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<script language="JavaScript">
+
+	var curpage = document.location.href; //get the URL of this page
+	var nameLink = curpage.split("#"); //get the bookmark of the page - .split creates an array
+	var endString = nameLink[1] + "1"; //add the string 1 to the bookmark to give us the DIV id
+	//Change the class of the current help question requested.
+	document.all(endString).className = "ActiveHelp";
+	
+</script>
+</body>
+</html>

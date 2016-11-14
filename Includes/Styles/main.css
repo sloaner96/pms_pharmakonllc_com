@@ -1,0 +1,222 @@
+td {
+    font-family: verdana, Arial, Helvetica,  sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+select {
+    color: black; 
+	border: 0; 
+	font-size : 11px
+}
+/*########################
+ These are Global Classes
+#########################*/
+.MainHeader, #MainHeader{
+	visibility: visible;
+}
+.PrintHeader, #PrintHeader{
+	visibility: hidden;
+	display:none;
+}
+.mainbox, #mainbox{
+	width: auto;
+}
+.errorText {
+	font-family: Arial, Helvetica, verdana, sans-serif;
+	font-size: 11px;
+	color: #cc0000;
+}
+.footer {
+	font-family: verdana, Arial, Helvetica,  sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.reportText{
+   font-size : 10px;
+}
+.topnav {
+    font-family: tahoma, Arial, Helvetica, verdana, sans-serif;
+	 font-size: 9px;
+	 color: #000000;
+}
+.header {
+	background-color: #F0F8FF;
+
+}
+
+.highlight {
+	background: #b2c4c6 ; 
+	font-size : 10px;
+}
+
+.highlight2 {
+    background: #dddebc ; 
+	 font-size : 10px;
+	 font-family : verdana;
+}
+.highlightEdit {
+	background: #eeaaaa;
+	font-family : verdana; 
+}
+.highlightEdit2 {
+	background: #eeeeee;
+	font-size: 10px;
+}
+
+td.tdheader {
+    background-color:#eeeeee; 
+	text-align : center; 
+	vertical-align : top; 
+	font-family : tahoma; 
+	font-size : 12px; 
+	color : FFFFFF; 
+	font-weight:bold;
+}
+td.tdheader1 {
+    background-color:FFFFFF; 
+	text-align : center; 
+	vertical-align : top; 
+	font-family : tahoma; 
+	font-size : 12px;
+}
+
+/*###############################
+  This is the Inbox Classes and IDs
+#################################*/
+.inboxCompany, #inboxCompany{
+	font-size: 14px;
+	background-color: #b2c4c6;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	visibility: visible;
+	margin-bottom: 2px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	elevation: level;
+}
+
+.inboxClient, #inboxClient{
+	font-size: 12px;
+	background-color: #dddebc;
+	font-family: verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	visibility: visible;
+	margin-left: 1px;
+	margin-bottom: 1px;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.inboxSeries, #inboxSeries{
+	font-size: 11px;
+	background-color: #778899;
+	font-family: verdana, Tahoma, Arial, Helvetica, sans-serif;
+	color: #ffffff;+ 
+	visibility: visible;
+	margin-left:15px;
+	margin-bottom: 1px;
+	padding-left: 1px;
+}
+.inboxSeriesBlnk, #inboxSeriesBlnk{
+	font-size: 11px;
+	background-color: #eeeeee;
+	font-family: verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	visibility: visible;
+	padding-left: 15px;
+	color: #B22222;
+}
+.inboxPrograms, #inboxPrograms{
+	font-size: 11px;
+	font-family: verdana, Tahoma, Arial, Helvetica, sans-serif;
+	padding-bottom: 5px;
+	visibility: visible;
+	padding-left: 20px;
+	width:100%;
+}
+
+.inboxProjects, #inboxProjects{
+	font-size: 10px;
+	background-color: #EFEFEF;
+	font-family: Arial, verdana, Tahoma,  Helvetica, sans-serif;
+	visibility: visible;
+	width:99%;
+	float:left;
+}
+.programActive, #programActive{
+	font-size: 11px;
+	background-color: #8FBC8F;
+	font-family: Arial, verdana, Tahoma,  Helvetica, sans-serif;
+	font-weight: bold;
+	border-right:1px solid #EFEFEF;
+	color: #000;
+	float: left;
+	width: 16%;
+}
+.programAccept, #programAccept{
+	font-size: 11px;
+	background-color: #BCBC8F;
+	font-family: Arial, verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	border-right:1px solid #EFEFEF;
+	color: #000;
+	float: left;
+	width: 16%;
+}
+.programQuoted, #programQuoted{
+	font-size: 11px;
+	background-color: #A58FBC;
+	font-family: Arial, verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	border-right:1px solid #EFEFEF;
+	color: #000;
+	float: left;
+	width: 16%;
+}
+.programComplete, #programComplete{
+	font-size: 11px;
+	background-color: #8F90BC;
+	font-family: Arial, verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	border-right:1px solid #EFEFEF;
+	color: #000;
+	float: left;
+	width: 16%;
+}
+.programOnHold, #programOnHold{
+	font-size: 11px;
+	background-color: #F0E68C;
+	font-family: Arial, verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	border-right:1px solid #EFEFEF;
+	color: #000;
+	float: left;
+	width: 16%;
+}
+.programCancelled, #programCancelled{
+	font-size: 11px;
+	background-color: #CD5C5C;
+	font-family: Arial, verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000;
+	float: left;
+	width: 16%;
+}
+/*###############################
+   This is for the Schedule Module
+################################*/
+.Appointmenthead {
+   font-family:arial, verdana, tahoma;
+   font-size: 14px; 
+   color: #ffffff;
+   font-weight: bold;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 8px;
+   
+}
+.Appointmentbody{
+	BACKGROUND: url(/images/back_gstripes.gif);
+}
+
+

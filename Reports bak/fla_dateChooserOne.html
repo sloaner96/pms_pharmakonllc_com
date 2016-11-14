@@ -1,0 +1,33 @@
+<script src="js_showHide.js"></script>
+<script src="js_actionscriptHelper.js"></script>
+
+
+
+<div>
+		<table>
+		<tr valign="middle">
+		<td style="font-family: verdana;font-size: 12px;font-weight: bold;">Beginning Date&nbsp; <input type="text" name="fiStartDate"></td>
+		<td><a href="javascript://" onclick="showhide('lStartDate');"><img border="0" src="images/cal1.gif"></a></td>
+		</table>
+</div>
+
+<div id="lStartDate" style="z-index:45;visibility:hidden;float:left">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" id="dateChooser" width="205" height="270" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="fla_dateChooser.swf" />
+<param name="loop" value="false" />
+<param name="menu" value="false" />
+<param name="quality" value="best" />
+<param name="scale" value="noscale" />
+<param name="salign" value="lt" />
+<param name="wmode" value="transparent" />
+<param name="bgcolor" value="#ffffff" />
+<embed src="fla_dateChooser.swf" loop="false" menu="false" quality="best" scale="noscale" salign="lt" wmode="transparent" bgcolor="#ffffff" width="205" height="270" swLiveConnect=true id="dateChooser" name="dateChooser" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="https://www.macromedia.com/go/getflashplayer" />
+</object>
+</div>
+
+
+</body>
+</html>
